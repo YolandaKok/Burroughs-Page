@@ -1,0 +1,73 @@
+.navi{
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.header{
+  color: white;
+}
+
+.container{
+  background-color: white;
+}
+
+footer{
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #111111;
+}
+
+a:link,a:visited{
+  color: #ffffff;
+}
+
+.jumbotron{
+  background-color: #f3f3f3;
+}
+
+h1,h4{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.quote2{
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
+}
+
+.quote1{
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
+}
+
+.quote3{
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
+}
+
+.write{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.grid{
+  width: 200px;
+  height: 200px;
+}
+
+
+.btn{
+  border-radius: 24px;
+  transition-property: width;
+  transition-duration: 3s;
+}
+
+#top{
+  float: right;
+}
+
+.jumbotron{
+  padding: 50px;
+}
