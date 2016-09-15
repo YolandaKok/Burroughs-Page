@@ -3,6 +3,11 @@ body{
     padding:0;
 }
 
+row{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
 .navi{
   margin: 0px;
   padding: 0px;
