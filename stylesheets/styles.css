@@ -8,6 +8,11 @@ body{
    margin: 0 !important;
 }
 
+.container{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 .navi{
   margin: 0px;
   padding: 0px;
