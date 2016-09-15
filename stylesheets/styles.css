@@ -17,6 +17,8 @@
 footer{
   background-color: #111111;
   width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 a:link,a:visited{
@@ -67,7 +69,7 @@ h1,h4{
 }
 
 .jumbotron{
-  margin: 0px;
+  margin: 0;
   width: 100%;
-  padding: 0px;
+  padding: 0;
 }
