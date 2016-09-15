@@ -15,10 +15,8 @@
 }
 
 footer{
-  margin-top: 100px;
-  padding-top: 50px;
-  padding-bottom: 50px;
   background-color: #111111;
+  width: 100%;
 }
 
 a:link,a:visited{
@@ -71,4 +69,5 @@ h1,h4{
 .jumbotron{
   margin: 0px;
   width: 100%;
+  padding: 0px;
 }
