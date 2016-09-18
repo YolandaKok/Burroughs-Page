@@ -12,8 +12,9 @@
 	        window.location.hash = target;
 	    });
 	});
-    function newWindow()
-    {
-        window.open("https://en.wikipedia.org/wiki/William_S._Burroughs");
-    }
 });
+
+function newWindow()
+{
+    window.open("https://en.wikipedia.org/wiki/William_S._Burroughs");
+}    
