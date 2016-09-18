@@ -1,6 +1,3 @@
-document.getElementById("info-button").onclick = function () {
-        location.href = "https://en.wikipedia.org/wiki/William_S._Burroughs";
-    };
 // smooth scrolling between the sections
   $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (event){
