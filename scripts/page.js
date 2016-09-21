@@ -14,7 +14,20 @@
 	});
 });
 
+// Open a link in a new window
 function newWindow()
 {
     window.open("https://en.wikipedia.org/wiki/William_S._Burroughs");
-}    
+}
+
+// change the navigation menu
+  $( document ).scroll(function() {
+    if( $(this).scrollTop() > 100){
+      $('.z').addClass('n');
+      $('.navi').addClass('nav1');
+    }
+    else{
+      $('.z').removeClass('n');
+      $('.navi').removeClass('nav1');
+    }
+  });
