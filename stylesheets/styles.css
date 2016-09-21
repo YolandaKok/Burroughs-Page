@@ -87,6 +87,8 @@ h1,h4{
   transition-duration: 3s;
   margin-top: 10px;
   background-color: black;
+  color: white;
+  padding-top: 20px;
 }
 
 #top {
