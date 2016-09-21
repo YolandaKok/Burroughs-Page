@@ -87,6 +87,9 @@ h1,h4{
   color: white;
   margin-top: 70px;
   margin-bottom: 70px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
 }
 
 #top {

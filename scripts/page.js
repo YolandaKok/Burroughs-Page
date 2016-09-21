@@ -37,12 +37,12 @@ function newWindow()
 function imageChange() {
   var button = document.getElementById('info-button');
   button.addEventListener('mouseover', function(event){
-    button.style.color = 'white';
-    button.style.background = "black";
+    button.style.color = 'black';
+    button.style.background = "white";
   });
 
   button.addEventListener('mouseout', function(event){
-    button.style.color = 'black';
-    button.style.background = 'white';
+    button.style.color = 'white';
+    button.style.background = 'black';
   });
 }
