@@ -85,11 +85,14 @@ h1,h4{
   border-radius: 24px;
   transition-property: width;
   transition-duration: 3s;
+  margin-top: 10px;
+  background-color: black;
 }
 
-#top{
+#top {
   float: right;
 }
+
 
 .jumbotron{
   margin: 0;
