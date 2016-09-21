@@ -20,7 +20,7 @@ function newWindow()
     window.open("https://en.wikipedia.org/wiki/William_S._Burroughs");
 }
 
-// change the navigation menu
+// Change the navigation menu
   $( document ).scroll(function() {
     if( $(this).scrollTop() > 100){
       $('.z').addClass('n');
@@ -31,3 +31,18 @@ function newWindow()
       $('.navi').removeClass('nav1');
     }
   });
+
+// Change the style of a button using DOM
+
+function imageChange() {
+  var button = document.getElementById('info-button');
+  button.addEventListener('mouseover', function(event){
+    button.style.color = 'white';
+    button.style.background = "black";
+  });
+
+  button.addEventListener('mouseout', function(event){
+    button.style.color = 'black';
+    button.style.background = 'white';
+  });
+}
