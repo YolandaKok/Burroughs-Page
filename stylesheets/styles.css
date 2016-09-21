@@ -83,11 +83,6 @@ h1,h4{
 
 .btn{
   border-radius: 24px;
-  width: 50px;
-  height: 80px;
-  transition-property: width;
-  transition-duration: 3s;
-  margin-top: 10px;
   background-color: black;
   color: white;
   padding-top: 100px;
